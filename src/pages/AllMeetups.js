@@ -17,7 +17,7 @@ function AllMeetupsPage() {
         for (const key in data) {
           const meetup = {
             id: key,
-            ...data,
+            ...data[key],
           };
 
           meetups.push(meetup);
