@@ -4,7 +4,7 @@ import AllMeetupsPage from "./pages/AllMeetups";
 import FavoritesPage from "./pages/Favorites";
 import NewMeetupPage from "./pages/NewMeetup";
 
-import Navigation from "./components/Navigation";
+import Navigation from "./components/layout/Navigation";
 
 function App() {
   return (
